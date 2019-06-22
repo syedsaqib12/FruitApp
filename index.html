@@ -1,19 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="style.css" />
-<title>Fruit Application</title>
-<div class="header">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
-
 <body>
-<div class="header">
-<h1> Fruit Shop </h1>
-</div>
-<div class="topnav">
-<h1> i have Rs <input type="text" quantity="anything"> </h1>
-</div>
 
+        <header>
+                <h1>Fruit Shop</h1>
+            </header>
+            <section class="amount">
+                <h2>I have Rs. <input type="text"></h2>
+            </section>
+            <section class="total">
+                <h3>Your total amount is.</h3>
+            </section>
+            <section class="fruits">
+                    <div class="apple">
+                        <div class="price">
+                            <p>Rs. 10</p>
+                        </div>
+                        <figure>
+                            <img src="img/3.png">
+                            <figcaption>Apple</figcaption>
+                        </figure>
+                        <div class="btn">
+                            <button class="subtract">-</button>
+                            <input type="text" id="app"  value="0">
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div class="orange">
+                        <div class="price">
+                            <p>Rs. 15</p>
+                        </div>
+                        <figure>
+                            <img src="img/2.png">
+                            <figcaption>Orange</figcaption>
+                        </figure>
+                        <div class="btn">
+                            <button class="subtract">-</button>
+                            <input type="text"  value="0">
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div class="banana">
+                        <div class="price">
+                            <p>Rs. 7</p>
+                        </div>
+                        <figure>
+                            <img src="img/3.png">
+                            <figcaption>Banana</figcaption>
+                        </figure>
+                        <div class="btn">
+                            <button class="subtract">-</button>
+                            <input type="text"  value="0">
+                            <button class="add">+</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+ 
 </body>
 </html>
