@@ -14,10 +14,10 @@
                 <h1>Fruit Shop</h1>
             </header>
             <section class="amount">
-                <h2>I have Rs. <input type="text"></h2>
+                <h2>I have Rs. <input onMouseOut="haveMoney()" type="number" min="0"></h2>
             </section>
             <section class="total">
-                <h3>Your total amount is.</h3>
+                <h3 type="totalBill()">Your total amount is.</h3>
             </section>
             <section class="fruits">
                     <div class="apple">
@@ -64,6 +64,8 @@
                     </div>
                 </div>
             </section>
+            
+            <script src="script.js"> </script>
  
 </body>
 </html>
