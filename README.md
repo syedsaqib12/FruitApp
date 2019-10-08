@@ -1,2 +1,1 @@
-# FruitApp
-C:/Users/quran.master/Desktop/fruit/index.html
+https://syedsaqib12.github.io/FruitApp/
